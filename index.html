@@ -8,17 +8,42 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to my personal Website</h1>
-      <h2>About Cats and why they're Awesome</h2>
+      <h1>Welcome to my "secret" Website</h1>
+      <nav>
+        <input type="text" name="username" placeholder="Username" />
+        <input type="password" name="password" placeholder="Password" />
+        <button name="login-btn">Login</button>
+      </nav>
     </header>
     <hr />
     <main>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-        officia error praesentium nam obcaecati delectus neque impedit ut illum
-        fugit quisquam reprehenderit porro saepe distinctio pariatur modi,
-        repellendus magnam mollitia!
-      </p>
+      <h2>Tell me your "Secret's"!</h2>
+      <ul>
+        <li>
+          Favorite Color: <input type="color" name="color" />
+          <button name="color-btn">Submit</button>
+        </li>
+        <li>
+          Height: <input type="range" name="hight" />
+          <button name="height-btn">Submit</button>
+        </li>
+        <li>
+          Birthday: <input type="date" name="birthday" />
+          <button name="birthday-btn">Submit</button>
+        </li>
+      </ul>
+      <hr />
+      <p><strong>Are you feeling good Today?</strong></p>
+      Yeah! <input type="checkbox" name="yeah" checked /> Ney!
+      <input type="checkbox" name="ney" /> Hmm..
+      <input type="checkbox" name="hmm" />
+      <button name="tell-me-btn">Tell me</button>
+      <p><strong>What like you more?</strong></p>
+      Cats <input type="radio" name="cats" checked /> Dogs
+      <input type="radio" name="dog" /> Other
+      <input type="radio" name="other" />
+      <button name="bell-me-btn">Bell me</button>
+      <hr />
     </main>
   </body>
 </html>
