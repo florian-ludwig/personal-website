@@ -4,27 +4,39 @@
   background-color: lightseagreen;
 }
 
+header {
+  top: 0;
+  margin-top: 0;
+  background: transparent;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  height: 80px;
+}
+
 body {
   margin: 25px;
   padding: 25px;
 }
 
-h1 {
+h1,
+h2 {
   border-left: 4px solid lightsalmon;
   padding-left: 10px;
 }
 
 nav {
-  width: 16rem;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 5px;
 }
 
 .button {
   background-color: lightsteelblue;
-  padding: 0.3rem 0.6rem;
+  padding: 0.4rem 0.5rem;
+  margin: 1.5rem 0.3rem;
   color: black;
   text-decoration: none;
   border-radius: 10px;
