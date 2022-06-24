@@ -53,7 +53,7 @@ nav {
 a:hover {
   background-color: lightsalmon;
 }
-skills:hover {
+li:hover {
   box-shadow: 4px 4px 8px lightsalmon;
 }
 
