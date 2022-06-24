@@ -7,12 +7,14 @@
 header {
   top: 0;
   margin-top: 0;
-  background: transparent;
+  background-color: lightsteelblue;
   position: fixed;
   display: flex;
   justify-content: space-around;
   width: 75%;
   height: 80px;
+  border-bottom: 3px solid lightsalmon;
+  border-radius: 10px;
 }
 
 body {
@@ -24,6 +26,7 @@ h1,
 h2 {
   border-left: 4px solid lightsalmon;
   padding-left: 10px;
+  background: transparent;
 }
 
 nav {
@@ -31,10 +34,11 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 5px;
+  background: transparent;
 }
 
 .button {
-  background-color: lightsteelblue;
+  background-color: lightseagreen;
   padding: 0.4rem 0.5rem;
   margin: 1.5rem 0.3rem;
   color: black;
@@ -46,8 +50,31 @@ legend {
   font-weight: 700;
   text-decoration: underline lightsalmon;
   text-underline-offset: 3px;
+  font-size: 20px;
 }
 fieldset {
   border-color: lightsteelblue;
   border-style: dotted;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.about {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding-left: 0;
+  border-radius: 15px;
+  font-size: 18px;
+}
+li {
+  padding: 8px 15px 6px;
+  background-color: lightsteelblue;
+  color: black;
+  border-radius: 15px;
 }
