@@ -53,9 +53,6 @@ nav {
 a:hover {
   background-color: lightsalmon;
 }
-li:hover {
-  box-shadow: 4px 4px 8px lightsalmon;
-}
 
 legend {
   font-weight: 700;
@@ -93,4 +90,19 @@ li {
 .hobbies {
   display: flex;
   flex-direction: column;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  gap: 10px;
+}
+.link {
+  background-color: lightsteelblue;
+  padding: 1rem 2.5rem;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
 }
