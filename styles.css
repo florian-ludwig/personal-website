@@ -79,3 +79,7 @@ li {
   color: black;
   border-radius: 15px;
 }
+.hobbies {
+  display: flex;
+  flex-direction: column;
+}
