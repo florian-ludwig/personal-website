@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --primary-color: #0ba1af;
+  --primary-font-color: #fcd68b;
+  --button-color: #a5823d;
+  --headline-color: #3fba8d;
+}
