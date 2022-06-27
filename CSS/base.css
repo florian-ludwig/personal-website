@@ -7,9 +7,9 @@
 }
 
 :root {
-  --second-color: #0ba1dd;
-  --primary-color: #0ba1af;
-  --primary-font-color: #fcd68b;
-  --button-color: #a5823d;
-  --headline-color: lightgreen;
+  --primary-color: #002642;
+  --second-color: #e59500;
+  --font-color: #e5dada;
+  --button-color: #840032;
+  --shadow-color: #02040f;
 }
