@@ -1,6 +1,10 @@
 .skills {
-  max-width: 80%;
-  max-height: 50%;
+  height: 20rem;
+  width: 40rem;
+  border: 1px solid var(--font-color);
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .skills--headline {
@@ -10,4 +14,8 @@
 
 .skills--container {
   border: 1px solid var(--shadow-color);
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 18rem;
+  height: 9rem;
 }
